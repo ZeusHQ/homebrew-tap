@@ -9,4 +9,4 @@ Installation
 $ brew tap zeushq/tap
 
 # Install tool:
-$ brew install <tool>
+$ brew install zproxy

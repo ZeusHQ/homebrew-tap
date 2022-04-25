@@ -13,6 +13,7 @@ class Zproxy < Formula
       ENV["PATH"] = "#{ENV["PATH"]}:#{buildpath}/bin"
       (buildpath/"src/github.com/zeushq/zproxy-go").install buildpath.children
       cd "src/github.com/zeushq/zproxy-go" do
+        system "go", "mod", "vendor"
         system "go", "build", "-o", bin/"zproxy", "."
       end
     end
