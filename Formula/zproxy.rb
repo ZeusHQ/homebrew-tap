@@ -1,4 +1,4 @@
-class ZProxy < Formula
+class Zproxy < Formula
     desc "A a zero-configuration ReverseProxy for Turborepos that automagically proxies all http and websocket requests from local domains to their respective localhost:port url."
     homepage "https://github.com/zeushq/zproxy"
     url "https://github.com/zeushq/zproxy/archive/v1.0.2.tar.gz"
