@@ -1,8 +1,8 @@
 class Zproxy < Formula
     desc "A a zero-configuration ReverseProxy for Turborepos that automagically proxies all http and websocket requests from local domains to their respective localhost:port url."
     homepage "https://github.com/zeushq/zproxy-go"
-    url "https://github.com/ZeusHQ/zproxy-go/archive/refs/tags/v1.0.3.tar.gz"
-    sha256 "3c31b3e85ba018d64e243e3aa834d554494301a9aa5cf54bab68fe4242b41cc2"
+    url "https://github.com/ZeusHQ/zproxy-go/archive/refs/tags/v1.0.4.tar.gz"
+    sha256 "c72e6ea415c2d6af2289884584c5e6f9db641a84b46d40657aebbb358f82cff5"
   
     depends_on "go"
   
